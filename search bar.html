@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang>
+<head>
+
+         <title>Google Search bar</title>
+         <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+        }
+
+        .logo-container {
+            text-align: center;
+        }
+
+        .logo {
+            width: 5px; 
+            height: auto; 
+            font-size: 10px;
+        }
+        
+
+        .search-container {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 20px;
+            
+        }
+
+        .search-bar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #ccc;
+            border-radius: 25px;
+            padding: 10px;
+            margin-bottom: 20px;
+            background-color: #f2f2f2; 
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.355); 
+        }
+        
+
+        .search-bar img {
+            width: 40px;
+            margin-right: 10px;
+        }
+
+        .search-bar input {
+            flex: 1;
+            border: none;
+            outline: none;
+            font-size: 16px;
+        }
+
+        .search-icons {
+            display: flex;
+            align-items: center;
+        }
+
+        .search-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #4285F4;
+            color: #fff;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            font-size: 20px;
+            margin: 0 5px;
+            cursor: pointer;
+        }
+
+        .search-options {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .search-option {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .icon-box {
+            background: rgb(163, 163, 80);
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+        }
+
+        .icon-box img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+        }
+
+        .icon-box:hover {
+            background: greenyellow;
+        }
+
+        .icon-box a {
+            text-decoration: none;
+            font-weight: bold;
+            color: black;
+            font-size: small;
+            padding: 50px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo-container">
+    <img src="IMAGES/images-lolololololololololol.png" >
+    <div class="search-container">
+        <div class="search-bar">
+            <span class="google-symbol">&#x1F4A1;</span>
+            <input type="text" id="search-input" placeholder="Search">
+            <div class="search-icons">
+                <span class="search-icon" id="voice-icon">&#128266;</span>
+                <span class="search-icon" id="image-icon">&#128248;</span>
+            </div>
+        </div>
+        <div class="search-options">
+            <div class="icon-box">
+                <a href="https://www.youtube.com">
+                    <img src="IMAGES/images-gagagagagagagaggaga.png" alt="YouTube Logo">
+                    YouTube
+                </a>
+            </div>
+            <div class="icon-box">
+                <a href="https://www.blogger.com">
+                    <img src="IMAGES/image-abc.jpeg" alt="Blogger Logo">
+                    Blogger
+                </a>
+            </div>
+            <div class="icon-box">
+                <a href="https://www.templates.com">
+                    <img src="IMAGES/images-nananananana.jpg" alt="Templates Logo">
+                    Templates
+                </a>
+            </div>
+            <div class="icon-box">
+                <a href="https://www.google.com">
+                    <img src="IMAGES/image-abc2.jpeg" alt="Google Logo">
+                    Google
+                </a>
+            </div>
+            <div class="icon-box">
+                <a href="https://www.yahoo.com">
+                    <img src="IMAGES/image-abc3.png" alt="Yahoo Logo">
+                    Yahoo
+                </a>
+            </div>
+            <div class="icon-box">
+                <a href="https://www.shortcut.com">
+                    <img src="IMAGES/image-abc5.jpeg" alt="Shortcut Logo">
+                    Shortcut
+                </a>
+            </div>
+            <div class="icon-box">
+                <a href="https://www.webstore.com">
+                    <img src="IMAGES/image-abc4.png" alt="Web Store Logo">
+                    Web Store
+                </a>
+            </div>
+        </div>
+    </div>
